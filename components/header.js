@@ -1,28 +1,28 @@
 import React from 'react'
-import styled from 'styled-components'
+
 
 const Header = () => {
     return (
         <>
-            <Div>
+            <div className="header-div">
 
-            <Button>
+            <div className='divBtn'>
                 KÖP 
-            </Button>
+            </div>
 
                 
 
-                <Img  src='/bilder/record-hunter-logo.png' />
+                <img  src='/bilder/record-hunter-logo.png' />
                
                 
                 
-            <Button>
+            <div className='divBtn'>
                 
                 SÄLJ
                 
-            </Button>
+            </div>
 
-            </Div>
+            </div>
 
             
 
@@ -30,29 +30,7 @@ const Header = () => {
     )
 }
 
-const Div = styled.div`
-    background-color: #1F1C1C;
 
-    width: 100%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-`
-
-
-
-const Img = styled.img`
-    height:50%;
-    width:15%;
-`
-const Button = styled.div`
-    height:100%;
-    width:20%;
-    background-color:#1F1C1C;
-    text-align:center;
-    color:#FFFFF;
-    
-`
 
     
 
