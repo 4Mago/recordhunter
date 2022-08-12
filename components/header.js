@@ -12,7 +12,7 @@ const Header = () => {
 
                 
 
-                <img  src='/bilder/record-hunter-logo.png' />
+                <img className='header-bakgrund'  src='/bilder/record-hunter-logo.png' />
                
                 
                 
