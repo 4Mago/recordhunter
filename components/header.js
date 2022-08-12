@@ -6,10 +6,10 @@ const Header = () => {
         <>
             <div className="header-div">
 
+
             <div className='divBtn'>
                 KÖP 
             </div>
-
                 
 
                 <img  src='/bilder/record-hunter-logo.png' />
@@ -17,22 +17,16 @@ const Header = () => {
                 
                 
             <div className='divBtn'>
-                
+               
                 SÄLJ
                 
             </div>
 
             </div>
 
-            
-
         </>
     )
 }
-
-
-
-    
 
 
 export default Header

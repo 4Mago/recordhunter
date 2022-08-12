@@ -1,0 +1,32 @@
+.footer-div {
+    position: relative;
+    background-color: #ffe81C;
+    height: 150px;
+    width: 100%;
+}
+
+.lp-skiva {
+    position: absolute;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    top: -75%;
+    opacity:0.85;
+    max-height: 450px;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+    z-index: -5;
+    overflow: hidden;
+    animation: alternate-reverse infinite 20s linear;
+
+}
+
+@keyframes lp-skiva {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
