@@ -1,14 +1,12 @@
 import Head from 'next/head'
-
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import styled from 'styled-components'
 import Indexbody from '../components/indexbody'
 
 export default function Home() {
 
   return (
-    <>
+    <div className='home-page'>
       <Header />
 
       <Head>
@@ -17,19 +15,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Indexbody></Indexbody>
-
-      <Body />
-
+      <Indexbody />
 
 
       <Footer />
 
-    </>
+    </div>
 
   )
 }
-
-const Body = styled.div`
-  height: 90vh;
-`
