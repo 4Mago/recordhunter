@@ -50,6 +50,7 @@ const Button = styled.div`
     width:20%;
     background-color:#1F1C1C;
     text-align:center;
+    color:#FFFFF;
     
 `
 
