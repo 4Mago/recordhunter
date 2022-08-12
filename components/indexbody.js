@@ -12,6 +12,9 @@ const Indexbody = () => {
 
               <Img  src='/bilder/index-background.png' />
 
+
+              <Div>
+
               <Textbackground>
               Köpa LP skivor i Stockholm? <br/><br/>
 
@@ -20,7 +23,7 @@ const Indexbody = () => {
                 </Textbackground>
 
              
-             
+              </Div>
               
               
           
@@ -37,6 +40,12 @@ const Container = styled.div`
    position: relative; 
 `
 
+const Div = styled.div`
+   display:flex;
+   justify-content:center;
+   align-items:center; 
+`
+
 
 const Img = styled.img`
   height:100vh;
@@ -50,7 +59,7 @@ position: absolute;
 bottom: 30%; 
 background: rgb(0, 0, 0);
 background: rgba(0, 0, 0, 0.5); 
-width: 100%;
+width: 50%;
 opacity:1;
 color: white;
 font-size: 20px;

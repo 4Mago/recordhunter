@@ -1,59 +1,32 @@
 import React from 'react'
-import styled from 'styled-components'
+
 
 const Header = () => {
     return (
         <>
-            <Div>
-
-                <Button>
-                    KÖP
-                </Button>
+            <div className="header-div">
 
 
+            <div className='divBtn'>
+                KÖP 
+            </div>
+                
 
-                <Img src='/bilder/record-hunter-logo.png' />
+                <img  src='/bilder/record-hunter-logo.png' />
+               
+                
+                
+            <div className='divBtn'>
+               
+                SÄLJ
+                
+            </div>
 
-
-
-                <Button>
-
-                    SÄLJ
-
-                </Button>
-
-            </Div>
-
-
+            </div>
 
         </>
     )
 }
-
-const Div = styled.div`
-    background-color: #1F1C1C;
-
-    width: 100%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-`
-
-
-
-const Img = styled.img`
-    height:50%;
-    width:15%;
-`
-const Button = styled.div`
-    height:100%;
-    width:20%;
-    color: #FFFFFF;
-    text-align:center;
-    
-`
-
-
 
 
 export default Header
