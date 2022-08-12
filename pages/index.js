@@ -3,11 +3,13 @@ import Head from 'next/head'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import styled from 'styled-components'
+import Indexbody from '../components/indexbody'
 
 export default function Home() {
 
   return (
     <>
+      <Header />
 
       <Head>
         <title>Create Next App</title>
@@ -15,8 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
-
+      <Indexbody></Indexbody>
 
       <Body />
 
