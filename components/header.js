@@ -6,25 +6,25 @@ const Header = () => {
         <>
             <Div>
 
-            <Button>
-                KÖP 
-            </Button>
+                <Button>
+                    KÖP
+                </Button>
 
-                
 
-                <Img  src='/bilder/record-hunter-logo.png' />
-               
-                
-                
-            <Button>
-                
-                SÄLJ
-                
-            </Button>
+
+                <Img src='/bilder/record-hunter-logo.png' />
+
+
+
+                <Button>
+
+                    SÄLJ
+
+                </Button>
 
             </Div>
 
-            
+
 
         </>
     )
@@ -48,12 +48,12 @@ const Img = styled.img`
 const Button = styled.div`
     height:100%;
     width:20%;
-    background-color:#1F1C1C;
+    color: #FFFFFF;
     text-align:center;
     
 `
 
-    
+
 
 
 export default Header
