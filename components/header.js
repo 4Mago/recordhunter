@@ -1,26 +1,35 @@
 import React from 'react'
+import Link from 'next/link'
 
 
 const Header = () => {
     return (
         <>
-            <div className="header-div">
+            <div className='header-div'>
 
+            <Link href='/kopa'>
 
-            <div className='divBtn'>
-                KÖP 
-            </div>
-                
+                <button className='divBtn'>
 
-                <img  src='/bilder/record-hunter-logo.png' />
-               
+                    KÖP 
+
+                </button>
+            </Link>
                 
-                
-            <div className='divBtn'>
-               
-                SÄLJ
-                
-            </div>
+            <Link href='/'>
+
+                <img  src='/bilder/record-hunter-logo.png'></img>
+
+            </Link>
+
+            <Link href='/salj'>
+
+                <button className='divBtn'>
+
+                    SÄLJ
+                    
+                </button>
+            </Link>
 
             </div>
 
