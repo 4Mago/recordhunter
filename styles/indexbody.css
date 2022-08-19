@@ -5,8 +5,12 @@
  
  .textbakgrund-container {
    display:flex;
-   justify-content:center;
+   justify-content:flex-start;
    align-items:center; 
+   display: block;
+   margin-left: 20px;
+   
+
  } 
  
  
@@ -16,22 +20,44 @@
    width:100%;
    display:block;
    margin:0;
+   position: relative;
  
  }
  
  
- .textbakgrund {
-   position: absolute; 
-   bottom: 30%; 
-   background: rgb(0, 0, 0);
-   background: rgba(0, 0, 0, 0.5); 
-   width: 50%;
-   opacity:1;
-   color: white;
-   font-size: 20px;
-   padding: 50px;
-   text-align: center;
-   border-radius: 88px;
- }
-   
- 
+ .intro-text {
+  position: absolute;
+ font-family: "Dosis";
+ font-size: 2.2rem; 
+ letter-spacing: .15em;
+ text-shadow: 1px 1px #666, 3px 3px #000;
+ background-color: #000;
+ width: 800px;
+ height: 500px;
+ padding: 20px;
+ overflow: hidden;
+ color: white;
+ border: 10px solid #eee;
+ z-index: 1;
+position:absolute;
+top: 8px;
+left: 16px;
+
+opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+  transition: all .5s ease-in-out;
+	animation-duration: 5s;
+}
+
+
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
