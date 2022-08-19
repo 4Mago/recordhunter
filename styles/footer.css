@@ -17,7 +17,7 @@
     border-radius: 100%;
     z-index: -5;
     overflow: hidden;
-    animation: alternate-reverse infinite 20s linear;
+    animation: lp-skiva alternate-reverse infinite 20s linear;
 
 }
 
