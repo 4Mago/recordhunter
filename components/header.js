@@ -9,11 +9,11 @@ const Header = () => {
 
             <Link href='/kopa'>
 
-                <button className='divBtn'>
+                <div className='divBtn'>
 
-                    KÖP 
+                <p>KÖP</p> 
 
-                </button>
+                </div>
             </Link>
                 
             <Link href='/'>
@@ -24,11 +24,11 @@ const Header = () => {
 
             <Link href='/salj'>
 
-                <button className='divBtn'>
+                <div className='divBtn'>
 
-                    SÄLJ
+                    <p>SÄLJ</p>
                     
-                </button>
+                </div>
             </Link>
 
             </div>

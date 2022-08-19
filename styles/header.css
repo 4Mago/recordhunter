@@ -13,19 +13,34 @@
 
 
 .logo-recordhunter {
-
-  height:50%;
+  height:35%;
   width:15%;
+  padding: 0 50px;
+  margin: 15px 0;
+  border-left: 2.5px solid grey;
+  border-right: 2.5px solid grey;
+
+  @media (max-width: 1100px) {
+    height:45%;
+    width:15%;
+    padding: 0 50px;
+    margin: 5px 0;
+  }
 }
 
 
 .divBtn {
 
-  height:100%;
-  width:20%;
+  height:100px;
+  width:40%;
   background-color:#1F1C1C;
+  border-color: #1F1C1C;
+  box-shadow: #1F1C1C;
   text-align:center;
   color:#FFFFFF;
+  font-size: 3.5rem;
+  line-height: 0px;
+  font-family: 'Bebas Neue';
 
 
 }
