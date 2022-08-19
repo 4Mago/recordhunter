@@ -18,7 +18,7 @@ const Header = () => {
                 
             <Link href='/'>
 
-                <img  src='/bilder/record-hunter-logo.png'></img>
+                <img className='logo-recordhunter' src='/bilder/record-hunter-logo.png'></img>
 
             </Link>
 
