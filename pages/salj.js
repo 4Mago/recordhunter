@@ -2,9 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import Kopabody from '../components/Kopabody'
+import Saljbody from '../components/Saljbody'
 
-const Kopa = () => {
+const Salj = () => {
   return (
     <div className='container'>
       <Header />
@@ -15,7 +15,7 @@ const Kopa = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Kopabody />
+      <Saljbody />
 
 
       <Footer />
@@ -24,4 +24,4 @@ const Kopa = () => {
   )
 }
 
-export default Kopa
+export default Salj

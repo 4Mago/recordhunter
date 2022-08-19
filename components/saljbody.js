@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Kopabody = () => {
+const Saljbody = () => {
   return (
     <>
     <div className="container">
@@ -17,7 +17,7 @@ const Kopabody = () => {
         <div className='textbakgrund'>
         Köpa LP skivor i Stockholm? <br/><br/>
 
-eyoo mannen hur e läget
+wazzzzaaaaa brreeee
           </div>
 
        
@@ -34,4 +34,4 @@ eyoo mannen hur e läget
 )
 }
 
-export default Kopabody
+export default Saljbody
