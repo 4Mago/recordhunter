@@ -5,7 +5,7 @@ const Footer = () => {
         <>
 
             <div className="footer-div">
-                <img className='lp-skiva'  src='/bilder/spinning-logo.png' />
+                <img className='lp-skiva'  src='/bilder/spinning-logo.png'></img>
             </div>
 
         </>
