@@ -1,8 +1,27 @@
+.footer-main {
+  position: relative;
+  height: 150px;
+  z-index:2;
+  overflow: visible;
+}
+
 .footer-div {
     position: relative;
     background-color: #ffe81C;
     height: 150px;
     width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left-text {
+  padding: 15px;
+}
+
+.footer-right-text {
+  padding: 15px;
 }
 
 .lp-skiva {
@@ -11,22 +30,19 @@
     transform: translate(-50%, -50%);
     top: -75%;
     opacity:0.85;
-    max-height: 450px;
+    max-height: 550px;
     max-width: 100%;
-    object-fit: contain;
     border-radius: 100%;
-    z-index: -5;
-    overflow: hidden;
+    z-index: -1;  
     animation: lp-skiva alternate-reverse infinite 20s linear;
-
 }
 
 @keyframes lp-skiva {
     from {
-      transform: rotate(0deg);
+      transform: rotate(-110deg);
     }
     to {
-      transform: rotate(360deg);
+      transform: rotate(480deg);
     }
   }
   

@@ -1,3 +1,12 @@
 .home-page {
-    height: 90vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.index-bakgrund {
+    background-image: url('/bilder/index-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }

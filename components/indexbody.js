@@ -10,7 +10,7 @@ const Indexbody = () => {
 
               
 
-              <img className='index-bakgrund'  src='/bilder/index-background.png' />
+              <img className='index-bakgrund' />
 
 
               
